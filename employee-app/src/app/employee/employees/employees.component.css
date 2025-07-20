@@ -1,0 +1,25 @@
+.employee-container {
+  padding: 24px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.employee-form {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  margin-bottom: 24px;
+}
+
+mat-form-field {
+  width: 100%;
+}
+
+.filter-field {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
